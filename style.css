@@ -1,4 +1,9 @@
-html
+*
+{
+	margin: 0;
+}
+
+html, body, #main
 {
 	height: 100%;
 }
@@ -6,7 +11,16 @@ html
 body
 {
 	text-align:center;
-	height: 100%;
+}
+
+#main
+{
+	margin: 0 auto -25px; /* -> footer .push */
+}
+
+#headline
+{
+	padding: 1%;
 }
 
 #reason-container
@@ -15,4 +29,11 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+footer
+{
+	height: 25px;  /*  -> #main */
+	position: relative;
+	margin: 0 auto;
 }
