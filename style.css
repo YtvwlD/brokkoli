@@ -1,4 +1,18 @@
+html
+{
+	height: 100%;
+}
+
 body
 {
 	text-align:center;
+	height: 100%;
+}
+
+#reason-container
+{
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
