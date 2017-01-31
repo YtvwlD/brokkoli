@@ -20,3 +20,5 @@ function init()
 }
 
 window.onload = init;
+
+console.log("You might want to take a look at https://github.com/YtvwlD/brokkoli :)");
