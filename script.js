@@ -8,3 +8,5 @@ function showRandomFact()
 	
 	reason_elem.innerText = rand_fact.reason;
 }
+
+window.onload = showRandomFact;
