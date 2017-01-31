@@ -38,6 +38,11 @@ body
 	padding: 1%;
 }
 
+#reason
+{
+	padding: 1%;
+}
+
 footer
 {
 	height: 25px;  /*  -> #main */

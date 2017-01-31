@@ -3,6 +3,7 @@
 function showRandomFact()
 {
 	var reason_elem = document.getElementById("reason");
+	var reason_source_elem = document.getElementById("reason-source");
 	
 	var rand_fact = facts[Math.floor(Math.random() * facts.length)];
 	if (reason_elem.innerText == rand_fact.reason)
@@ -11,6 +12,7 @@ function showRandomFact()
 		return showRandomFact();
 	}
 	reason_elem.innerText = rand_fact.reason;
+	reason_source_elem.href = rand_fact.source;
 }
 
 function init()
