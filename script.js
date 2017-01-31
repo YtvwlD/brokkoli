@@ -9,4 +9,10 @@ function showRandomFact()
 	reason_elem.innerText = rand_fact.reason;
 }
 
-window.onload = showRandomFact;
+function init()
+{
+	document.getElementById("next-reason-button").onclick = showRandomFact;
+	showRandomFact();
+}
+
+window.onload = init;
