@@ -32,6 +32,12 @@ body
 	align-items: center;
 }
 
+#next-reason-button
+{
+	margin: 10%;
+	padding: 1%;
+}
+
 footer
 {
 	height: 25px;  /*  -> #main */
